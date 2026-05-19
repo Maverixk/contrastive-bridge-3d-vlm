@@ -1,0 +1,31 @@
+# Jupyter & Colab
+.ipynb_checkpoints/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Data & Datasets (Prevents pushing huge files)
+*.csv
+*.tsv
+*.json
+*.dat
+data/
+datasets/
+
+# Model Weights & Checkpoints
+*.h5
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+logs/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
